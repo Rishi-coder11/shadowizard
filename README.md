@@ -2,18 +2,20 @@
 Get perfect shadows every time for the non-designer.
 
 # Installation
-`npm i shadowizard --save`
+`npm i shadowwizardrishi --save`
 
 Then...
 
+```
 import { shadowizard } from 'shadowizardyrishi';
 
 shadowizard({
     shadow_type: 'soft',
     padding: false
 });
-Options
+```
+## Options
 Shadowizard supports 2 options, both of which are optional:
 
-shadow_type - hard | soft (Defaults to soft)
-padding - boolean (Defaults to false)
+* *shadow_type - hard | soft (Defaults to soft)
+* *padding - boolean (Defaults to false)
